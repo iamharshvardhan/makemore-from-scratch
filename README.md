@@ -6,13 +6,13 @@ The data used for this lies [here](data/names.txt).
 
 ## Overview
 
-Makemore operates on a character-by-character basis, taking names as input and producing a sequence of characters as output. It utilizes a language model to understand patterns in names and generate plausible sequences based on the provided input.
+Makemore operates on a character-by-character basis, taking names as input and producing a sequence of characters as output. It utilizes a language model to understand name patterns and generate plausible sequences based on the provided input.
 
-Here, in this project we tried to implement 3 different approaches for the same neural network.
+Here, in this project, we tried to implement 3 different approaches for the same neural network.
 
-1. The [first](./1.%20from%20scratch/makemore-from-scratch.ipynb) approach is to generate a BiGram by simply counting the occurances and using the most used ones to generate two letter sequences.
+1. The [first](./1.%20from%20scratch/makemore-from-scratch.ipynb) approach is to generate a BiGram by simply counting the occurrences and using the most used ones to generate two letter sequences.
 
-2. In the [second](./2.%20mlp%20architecture/build_makemore_mlp.ipynb) method, we implement a MLP architecture introduced to us through this paper : [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf).
+2. In the [second](./2.%20mlp%20architecture/build_makemore_mlp.ipynb) method, we implement an MLP architecture introduced to us through this paper : [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf).
 
 <img src="./makemore-mlp-architecture.png" width=70% alt="mlp-architecture">
 
@@ -22,20 +22,20 @@ Here, in this project we tried to implement 3 different approaches for the same 
 
  > Batch normalization for input size of the neural network. [Research Paper](https://arxiv.org/abs/1502.03167)
 
-4. The [fourth](./4.%20manual%20backpropogation/build_makemore_backprop.ipynb) one includes exercises to make you a backpropogation ninja by manually implementing them.
+4. The [fourth](./4.%20manual%20backpropogation/build_makemore_backprop.ipynb) one includes exercises to make you a backpropagation ninja by manually implementing them.
 
-> This shows how backpropogation was done back in the early days. Also has the side effect of giving you a sense of superiority over other practitioners of Deep Learning.
+> This shows how backpropagation was done back in the early days. Also has the side effect of giving you a sense of superiority over other practitioners of Deep Learning.
 
 <img src="./swole-dog-backprop.png" width=70% alt='ninja'>
 
-5. The fifth notebook include the implementation of wavenet architecture from this paper: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/pdf/1609.03499v2.pdf)
+5. The fifth notebook includes the implementation of WaveNet architecture from this paper: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/pdf/1609.03499v2.pdf)
 
 <img src="./wavenet-architecture.png" width=70% alt="wavenet">
 
 ## Clone the repo
 
 ```bash
-git clone 
+git clone https://github.com/iamharshvardhan/makemore-from-scratch.git
 ```
 
 ## Acknowledgments
