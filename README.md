@@ -28,7 +28,7 @@ Here, in this project, we tried to implement different approaches for the same n
 
 <img src="./swole-dog-backprop.png" width=70% alt='ninja'>
 
-5. The [fifth](./5.%2wavenet%2architecture/build_makemore_wavenet.ipynb) notebook includes the implementation of WaveNet architecture from this paper: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/pdf/1609.03499v2.pdf)
+5. The [fifth](./5.%20wavenet%20architecture/build_makemore_wavenet.ipynb) notebook includes the implementation of WaveNet architecture from this paper: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/pdf/1609.03499v2.pdf)
 
 <img src="./wavenet-architecture.png" width=70% alt="wavenet">
 
