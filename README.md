@@ -28,7 +28,7 @@ Here, in this project, we tried to implement different approaches for the same n
 
 <img src="./swole-dog-backprop.png" width=70% alt='ninja'>
 
-5. The fifth notebook includes the implementation of WaveNet architecture from this paper: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/pdf/1609.03499v2.pdf)
+5. The [fifth](./4.%20manual%20backpropogation/build_makemore_wavenet.ipynb) notebook includes the implementation of WaveNet architecture from this paper: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/pdf/1609.03499v2.pdf)
 
 <img src="./wavenet-architecture.png" width=70% alt="wavenet">
 
