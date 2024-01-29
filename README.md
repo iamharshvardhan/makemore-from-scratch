@@ -8,7 +8,7 @@ The data used for this lies [here](data/names.txt).
 
 Makemore operates on a character-by-character basis, taking names as input and producing a sequence of characters as output. It utilizes a language model to understand name patterns and generate plausible sequences based on the provided input.
 
-Here, in this project, we tried to implement 3 different approaches for the same neural network.
+Here, in this project, we tried to implement different approaches for the same neural network.
 
 1. The [first](./1.%20from%20scratch/makemore-from-scratch.ipynb) approach is to generate a BiGram by simply counting the occurrences and using the most used ones to generate two letter sequences.
 
